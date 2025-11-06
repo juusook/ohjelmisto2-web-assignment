@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .hero img {
-    width: 80%;
+    width: 50%;
     max-width: none;
     height: auto;
     border-radius: 3rem;
@@ -98,21 +98,26 @@ nav a:hover {
     flex-wrap: wrap;
     width: 80%;
     max-width: 100%;
-    margin: 5rem auto;
+    margin: 2rem auto;
     box-sizing: border-box;
 }
 
 .product {
     background-color: #d0d0d0;
     padding: 1rem;
-    flex: 1 1 30%;
+    flex: 1 1 30%;   /* grow, shrink, basis */
     box-sizing: border-box;
 }
 
 .product img {
     width: 100%;
-    height: 250px;
+    height: 50%;
     object-fit: cover;
-    aspect-ratio: 4/3;
+    aspect-ratio: 3/4;
     display: block;
+    border-radius: 3rem;
+}
+
+.product p {
+    font-size: 1.2rem;
 }
