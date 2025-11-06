@@ -11,10 +11,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e6e1d8;
-    max-width: 1200px;
+    background-color: #8d8c8c;
+    max-width: 100%;
     margin: 0 auto;
-    width: 75%;
+    width: 85%;
     container: border-box;
 }
 
@@ -25,7 +25,7 @@ body {
     display: inline-block;
     padding: 1rem;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -52,10 +52,27 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 75%;
-    height: 70vh;
+    width: 85%;
+    min-height: 75vh;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     text-align: center;
+}
 
+.hero img {
+    width: 80%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    padding: 1rem;
+}
+
+h2 {
+    color: #f1ebe7;
 }
