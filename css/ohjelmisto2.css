@@ -4,7 +4,8 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(243, 234, 224);
+    background-color: rgb(243, 237, 230);
+
 }
 
 
@@ -26,7 +27,7 @@ body {
     color: white;
     flex: 0 0 auto;
     display: inline-block;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
     font-size: 1.5rem;
 }
@@ -52,7 +53,7 @@ nav a:hover {
 
 .hero {
     background:linear-gradient(to bottom,
-    #2d4248 0%,
+    #151515 0%,
     #aabbc0 40%,
     #f3eae0 100%
     );
@@ -69,10 +70,10 @@ nav a:hover {
 }
 
 .hero img {
-    width: 50%;
+    width: 80%;
     max-width: none;
     height: auto;
-    border-radius: 3rem;
+    border-radius: 2rem;
     display: block;
     margin: 0 auto;
 }
@@ -85,7 +86,7 @@ nav a:hover {
 .hero h2 {
     color: #f1ebe7;
     font-size: 2rem;
-    padding: 3rem 0 0 3rem;
+    padding: 2rem 0 0 3rem;
 }
 
 
@@ -120,4 +121,13 @@ nav a:hover {
 
 .product p {
     font-size: 1.2rem;
+}
+
+.volta {
+    background-image: url("Images/background.png);
+}
+
+.background {
+  background-image: url("star-transparent.gif"), url("cat-front.png");
+  background-color: transparent;
 }
