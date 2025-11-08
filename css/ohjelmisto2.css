@@ -9,7 +9,8 @@ body {
 }
 
 
-/*---------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
 /* HOME SIVU */
 .Container {
     display: flex;
@@ -90,7 +91,8 @@ nav a:hover {
 }
 
 
-/*---------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
 /* PRODUCT SIVU */
 .products {
     display: flex;
@@ -123,11 +125,34 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-.volta {
-    background-image: url("Images/background.png);
+
+/*---------------------------------*/
+/*---------------------------------*/
+/* CONTACT SIVU */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 2rem auto;
+    gap: 2rem;
+    background:linear-gradient(to top,
+    #706f6f 0%,
+    #b7b7b7 40%,
+    #f3eae0 100%);
+    Padding-top: 3rem;
+}
+.info {
+    font-size: 1.5rem;
+    padding-left: 1rem;
 }
 
-.background {
-  background-image: url("star-transparent.gif"), url("cat-front.png");
-  background-color: transparent;
+.kartta {
+    flex: 1;
+    width: 22rem;
+    max-width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-right: 10rem;
 }
