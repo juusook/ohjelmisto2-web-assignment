@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #939393;
+    background-color: #6e6e6e;
     max-width: 100%;
     margin: 0 auto;
     width: 80%;
@@ -24,7 +24,7 @@ body {
 }
 
 .Logo {
-    background-color: rgb(147, 147, 147);
+    background-color: rgb(110, 110, 110);
     color: white;
     flex: 0 0 auto;
     display: inline-block;
@@ -45,7 +45,7 @@ nav a {
     text-decoration: none;
     color: #f2f2f2;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -117,7 +117,7 @@ img {
 
 .product img {
     width: 100%;
-    height: 50%;
+    height: auto;
     object-fit: cover;
     aspect-ratio: 3/4;
     display: block;
@@ -153,7 +153,6 @@ img {
 
 .kartta {
     flex: 1;
-    width: 25rem;
     max-width: 50%;
     height: auto;
     flex-wrap: wrap;
