@@ -111,6 +111,9 @@ nav a:hover {
     flex: 1 1 30%;   /* grow, shrink, basis */
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 
 .product img {
     width: 100%;
